@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Semáforo</title>
-<meta charset="utf-8">
-<style>
-@media (max-width: 400) {
-body{
-background: green;
-}
-@media (max-width: 600px) {
-body{
-background: yellow
-}
-@media (max-width: 800px) {
-body{
-background: red;
-}
-</style>
+	<meta charset="utf-8">
+	<title>Semáforo</title>
+	<meta charset="utf-8">
+	<style>
+		@media (min-width: 400px) and (max-width: 599px){
+			body{
+				background: green;
+			}
+		}
+		@media (min-width: 600px) and (max-width: 799px){
+			body{
+				background: yellow;
+			}
+		}
+		@media (min-width: 800px){
+			body{
+				background: red;
+			}
+		}
+	</style>
 </head>
 <body>
 </body>
